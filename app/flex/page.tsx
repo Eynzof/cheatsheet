@@ -1,4 +1,4 @@
-import styles from '../../styles/Flex.module.css';
+import styles from './flex.module.css';
 
 export default function page() {
     return(<div className={styles.main}>
