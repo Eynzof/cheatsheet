@@ -1,4 +1,27 @@
 .main {
     height: 100vh;
     background-color: #111;
+    color: #fff;
+    font-family: "Inconsolata", monospace;
+
+}
+.sets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 4rem;
+}
+.set {
+    /*border: 1px solid #fff*/
+}
+.header {
+    font-size: 16px
+}
+
+.lore {
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.sections {
+
 }

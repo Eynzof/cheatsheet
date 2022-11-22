@@ -7,9 +7,55 @@ import Cube from "../../stories/Cube/Cube";
 function Page() {
     return (
         <div className={styles.main}>
-            <header className={styles.header}>Grid</header>
-            <div className={styles.sections}>
-                <Cube/>
+            <div className={styles.sets}>
+                <div className={styles.set}>
+                    <div className={styles.header}>grid-template</div>
+                    <div className={styles.lore}>
+                        <p>Defines the rows and columns of the grid.</p>
+                    </div>
+                    <div className={styles.sections}>
+                        <Cube/>
+                        <Cube/>
+                        <Cube/>
+                        <Cube/>
+                    </div>
+                </div>
+                <div className={styles.set}>
+                    <div className={styles.header}>grid-template</div>
+                    <div className={styles.lore}>
+                        <p>Defines the rows and columns of the grid.</p>
+                    </div>
+                    <div className={styles.sections}>
+                        <Cube/>
+                        <Cube/>
+                        <Cube/>
+                        <Cube/>
+                    </div>
+                </div>
+                <div className={styles.set}>
+                    <div className={styles.header}>grid-template</div>
+                    <div className={styles.lore}>
+                        <p>Defines the rows and columns of the grid.</p>
+                    </div>
+                    <div className={styles.sections}>
+                        <Cube/>
+                        <Cube/>
+                        <Cube/>
+                        <Cube/>
+                    </div>
+                </div>
+                <div className={styles.set}>
+                    <div className={styles.header}>grid-template</div>
+                    <div className={styles.lore}>
+                        <p>Defines the rows and columns of the grid.</p>
+                    </div>
+                    <div className={styles.sections}>
+                        <Cube/>
+                        <Cube/>
+                        <Cube/>
+                        <Cube/>
+                    </div>
+                </div>
             </div>
         </div>
     );
