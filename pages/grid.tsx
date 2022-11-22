@@ -4,7 +4,6 @@ import GridTemplate from "../components/Grid/GridTemplate/GridTemplate";
 import GridGap from "../components/Grid/GridGap/GridGap";
 import Link from "next/link";
 
-// @ts-ignore
 function Grid() {
     return (
         <>
