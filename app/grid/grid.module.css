@@ -1,9 +1,8 @@
 .main {
     height: 100vh;
-
     color: #fff;
     font-family: "Inconsolata", monospace;
-    padding: 4rem;
+    padding: 1rem 4rem;
 }
 .sets {
     display: grid;
@@ -13,6 +12,13 @@
 .set {
     /*border: 1px solid #fff*/
 }
+
+.title {
+    font-size: 48px;
+    margin-left: 16px;
+    color: #fff;
+    font-family: "Inconsolata", monospace;
+}
 .header {
     font-size: 16px
 }
@@ -20,6 +26,7 @@
 .lore {
     margin-top: 25px;
     font-size: 12px;
+    color: #bbb;
 }
 
 .sections {
