@@ -3,6 +3,7 @@ import styles from "../styles/grid.module.css";
 import GridTemplate from "../components/Grid/GridTemplate/GridTemplate";
 import GridGap from "../components/Grid/GridGap/GridGap";
 import Link from "next/link";
+import JustifyItem from "../components/Grid/JustifyItem/JustifyItem";
 
 function Grid() {
     return (
@@ -13,6 +14,7 @@ function Grid() {
                 <div className={styles.sets}>
                     <GridTemplate/>
                     <GridGap/>
+                    <JustifyItem/>
                 </div>
             </div></>
     );
