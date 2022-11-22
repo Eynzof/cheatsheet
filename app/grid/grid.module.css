@@ -27,30 +27,26 @@
 }
 
 .atom {
-    width: 12px;
-    height: 12px;
     display: block;
-    border:  1px solid #111;
+    border: 1px solid #111111;
 }
 
-.atoms {
+.grid {
     width: 46px;
     height: 46px;
     padding: 4px;
     margin-right: 16px;
     border: 1px solid rgba(255,255,255,0.2);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
 }
 
-.atoms-heading {
+.header {
     font-size: 12px;
 
     font-family: "Inconsolata",monospace;
 }
 
-.atom-blocks {
+.blocks {
     width: 400px;
     padding: 8px 0;
     display: flex;
