@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "../../../app/grid/grid.module.css";
 
 // @ts-ignore
-function GridTemplate(props) {
+function GridTemplate() {
     return (
         <div className={styles.set}>
             <div className={styles.header}>grid-template</div>

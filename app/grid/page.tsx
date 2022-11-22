@@ -6,6 +6,7 @@ import GridTemplate from "../../components/Grid/GridTemplate/GridTemplate";
 function Page() {
     return (
         <div className={styles.main}>
+            <h1>Container</h1>
             <div className={styles.sets}>
                 <GridTemplate/>
                 <div className={styles.set}>

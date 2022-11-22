@@ -3,12 +3,12 @@
 
     color: #fff;
     font-family: "Inconsolata", monospace;
-
+    padding: 4rem;
 }
 .sets {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding: 4rem;
+
 }
 .set {
     /*border: 1px solid #fff*/
