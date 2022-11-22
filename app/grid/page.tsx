@@ -26,8 +26,20 @@ function Page() {
                         <p>Defines the rows and columns of the grid.</p>
                     </div>
                     <div className={styles.sections}>
-                        <Cube/>
-                        <Cube/>
+                        <div className="atom-blocks">
+                            <div className="atoms">
+                                {[...Array(9)].map((e, i) => i).map((i) => <div className="atom" key={i} style={{backgroundColor: `rgba(255, 241, 108, ${1-i*0.07})`}}></div>)}
+                            </div>
+                            <p className="atoms-heading">grid-template-columns: 12px 12px 12px;<br/>grid-template-rows: 12px 12px 12px;
+                            </p>
+                        </div>
+                        <div className="atom-blocks">
+                            <div className="atoms">
+                                {[...Array(9)].map((e, i) => i).map((i) => <div className="atom" key={i} style={{backgroundColor: `rgba(255, 241, 108, ${1-i*0.07})`}}></div>)}
+                            </div>
+                            <p className="atoms-heading">grid-template-columns: repeat(3, 1fr);<br/>grid-template-rows: repeat(3, 1fr);
+                            </p>
+                        </div>
                         <Cube/>
                         <Cube/>
                     </div>

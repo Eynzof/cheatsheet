@@ -5,7 +5,7 @@ export default function Layout({ children }) {
     return (
         <html lang="en">
         <head>
-            <title>Next.js</title>
+            <title>Cheatsheet</title>
         </head>
         <body>
         {children}
