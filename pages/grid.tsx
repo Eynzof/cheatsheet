@@ -4,6 +4,7 @@ import GridTemplate from "../components/Grid/GridTemplate/GridTemplate";
 import GridGap from "../components/Grid/GridGap/GridGap";
 import Link from "next/link";
 import JustifyItem from "../components/Grid/JustifyItem/JustifyItem";
+import AlignItem from "../components/Grid/AlignItem/AlignItem";
 
 function Grid() {
     return (
@@ -15,6 +16,7 @@ function Grid() {
                     <GridTemplate/>
                     <GridGap/>
                     <JustifyItem/>
+                    <AlignItem/>
                 </div>
             </div></>
     );
