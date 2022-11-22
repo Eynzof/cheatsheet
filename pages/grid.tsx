@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from "./grid.module.css";
-import GridTemplate from "../../components/Grid/GridTemplate/GridTemplate";
-import GridGap from "../../components/Grid/GridGap/GridGap";
+import styles from "../styles/grid.module.css";
+import GridTemplate from "../components/Grid/GridTemplate/GridTemplate";
+import GridGap from "../components/Grid/GridGap/GridGap";
 import Link from "next/link";
 
 // @ts-ignore
-function Page() {
+function Grid() {
     return (
         <>
             <h1 className={styles.title}><Link href={"/"} style={{fontSize:"32px"}}>&lt; </Link>GRID</h1>
@@ -19,6 +19,6 @@ function Page() {
     );
 };
 
-Page.propTypes = {};
+Grid.propTypes = {};
 
-export default Page;
+export default Grid;
