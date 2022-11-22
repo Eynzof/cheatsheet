@@ -1,6 +1,6 @@
-import styles from './flex.module.css';
+import styles from '../styles/flex.module.css';
 
-export default function Flex() {
+function Flex() {
     return(<div className={styles.main}>
         <header className={styles.header}>Flex</header>
         <div className={styles.sections}>
@@ -13,3 +13,5 @@ export default function Flex() {
         </div>
     </div>)
 }
+
+export default Flex
