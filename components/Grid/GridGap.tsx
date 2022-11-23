@@ -1,12 +1,12 @@
 import React from 'react';
-import styles from "../../../styles/grid.module.css";
+import styles from "../../styles/grid.module.css";
 
 function GridGap() {
     return (
         <div className={styles.set}>
             <div className={styles.header}>grid-gap</div>
             <div className={styles.lore}>
-                <p>Specifies the size of column and row gutters.</p>
+                <p>指定网格行列间的间隙</p>
             </div>
             <div className={styles.sections}>
                 <div className={styles.blocks}>

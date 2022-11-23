@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../../../styles/grid.module.css";
+import styles from "../../styles/grid.module.css";
 import { Tooltip } from '@chakra-ui/react'
 import { QuestionOutlineIcon } from "@chakra-ui/icons";
 

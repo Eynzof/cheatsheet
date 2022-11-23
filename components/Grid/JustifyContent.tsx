@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../../../styles/grid.module.css";
+import styles from "../../styles/grid.module.css";
 
 // @ts-ignore
 function JustifyItem() {
@@ -7,7 +7,7 @@ function JustifyItem() {
         <div className={styles.set}>
             <div className={styles.header}>justify-content</div>
             <div className={styles.lore}>
-                <p>Aligns content in a grid item along the row axis.</p>
+                <p>将网格内的元素视为整体横向排列</p>
             </div>
             <div className={styles.sections}>
                 <div className={styles.blocks}>

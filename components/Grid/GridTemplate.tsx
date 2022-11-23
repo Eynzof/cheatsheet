@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../../../styles/grid.module.css";
+import styles from "../../styles/grid.module.css";
 
 // @ts-ignore
 function GridTemplate() {
@@ -7,7 +7,7 @@ function GridTemplate() {
         <div className={styles.set}>
             <div className={styles.header}>grid-template</div>
             <div className={styles.lore}>
-                <p>Defines the rows and columns of the grid.</p>
+                <p>定义网格的行数和列数</p>
             </div>
             <div className={styles.sections}>
                 <div className={styles.blocks}>
