@@ -71,7 +71,7 @@ const GridDisplay = () => {
                             {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                             style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                         </div>
-                        <p className={styles.header}>display: grid;
+                        <p className={styles.header}>display: inline-grid;
                         </p>
                     </div>
                 </div>
