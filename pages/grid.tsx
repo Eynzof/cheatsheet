@@ -5,7 +5,8 @@ import GridGap from "../components/Grid/GridGap/GridGap";
 import Link from "next/link";
 import JustifyItem from "../components/Grid/JustifyItem/JustifyItem";
 import AlignItem from "../components/Grid/AlignItem/AlignItem";
-
+import JustifyContent from "../components/Grid/JustifyContent/JustifyContent";
+import AlignContent from "../components/Grid/AlignContent/AlignContent";
 function Grid() {
     return (
         <>
@@ -17,6 +18,8 @@ function Grid() {
                     <GridGap/>
                     <JustifyItem/>
                     <AlignItem/>
+                    <JustifyContent/>
+                    <AlignContent/>
                 </div>
             </div></>
     );
