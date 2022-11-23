@@ -15,10 +15,15 @@ const GridAutoFlow = () => {
                     <div className={styles.blocks}>
                         <div className={styles.grid}
                              style={{
-                                 gridTemplateColumns: 'repeat(3, 1fr)', gridTemplateRows: 'repeat(3, 1fr)'
+                                 gridAutoFlow: "row",
+                                 gridTemplateRows: 'auto auto auto',
+                                 gridTemplateColumns: 'auto auto auto'
                              }}>
-                            {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                            style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
+                            {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atoma} key={i}
+                                                                            style={{
+                                                                                backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`,
+
+                                                                            }}></div>)}
                         </div>
                         <p className={styles.code}>display: grid; <Tooltip closeDelay={500}
                                                                            label='默认情况下 grid 是块级元素，一个grid独占一行'
