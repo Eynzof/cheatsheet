@@ -5,9 +5,9 @@ import styles from "../../../styles/grid.module.css";
 function AlignContent() {
     return (
         <div className={styles.set}>
-            <div className={styles.header}>justify-content</div>
+            <div className={styles.header}>align-content</div>
             <div className={styles.lore}>
-                <p>Aligns content in a grid item along the row axis.</p>
+                <p>Aligns content in a grid item along the column axis.</p>
             </div>
             <div className={styles.sections}>
                 <div className={styles.blocks}>

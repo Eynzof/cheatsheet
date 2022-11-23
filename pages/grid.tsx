@@ -7,6 +7,7 @@ import JustifyItem from "../components/Grid/JustifyItem/JustifyItem";
 import AlignItem from "../components/Grid/AlignItem/AlignItem";
 import JustifyContent from "../components/Grid/JustifyContent/JustifyContent";
 import AlignContent from "../components/Grid/AlignContent/AlignContent";
+import GridDisplay from '../components/Grid/Grid/GridDisplay';
 function Grid() {
     return (
         <>
@@ -20,6 +21,7 @@ function Grid() {
                     <AlignItem/>
                     <JustifyContent/>
                     <AlignContent/>
+                    <GridDisplay />
                 </div>
             </div></>
     );
