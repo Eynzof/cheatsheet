@@ -8,6 +8,7 @@ import AlignItem from "../components/Grid/AlignItem";
 import JustifyContent from "../components/Grid/JustifyContent";
 import AlignContent from "../components/Grid/AlignContent";
 import GridDisplay from '../components/Grid/GridDisplay';
+import GridAutoFlow from "../components/Grid/GridAutoFlow";
 function Grid() {
     return (
         <>
@@ -17,12 +18,12 @@ function Grid() {
                 <div className={styles.sets}>
                     <GridDisplay />
                     <GridTemplate/>
-
                     <JustifyItem/>
                     <AlignItem/>
                     <JustifyContent/>
                     <AlignContent/>
                     <GridGap/>
+                    <GridAutoFlow/>
                 </div>
             </div></>
     );
