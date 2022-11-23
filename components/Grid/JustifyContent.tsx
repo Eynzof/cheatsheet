@@ -16,7 +16,7 @@ function JustifyItem() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
                     </div>
-                    <p className={styles.header}>justify-content: start;
+                    <p className={styles.code}>justify-content: start;
                     </p>
                 </div>
                 <div className={styles.blocks}>
@@ -25,7 +25,7 @@ function JustifyItem() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
                     </div>
-                    <p className={styles.header}>justify-content: end;
+                    <p className={styles.code}>justify-content: end;
                     </p>
                 </div>
                 <div className={styles.blocks}>
@@ -34,7 +34,7 @@ function JustifyItem() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
                     </div>
-                    <p className={styles.header}>justify-content: center;
+                    <p className={styles.code}>justify-content: center;
                     </p>
                 </div>
                 <div className={styles.blocks}>
@@ -43,7 +43,7 @@ function JustifyItem() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
                     </div>
-                    <p className={styles.header}>justify-content: stretch;
+                    <p className={styles.code}>justify-content: stretch;
                     </p>
                 </div>
                 <div className={styles.blocks}>
@@ -52,7 +52,7 @@ function JustifyItem() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
                     </div>
-                    <p className={styles.header}>justify-content: space-around;
+                    <p className={styles.code}>justify-content: space-around;
                     </p>
                 </div>
                 <div className={styles.blocks}>
@@ -61,7 +61,7 @@ function JustifyItem() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
                     </div>
-                    <p className={styles.header}>justify-content: space-between;
+                    <p className={styles.code}>justify-content: space-between;
                     </p>
                 </div>
                 <div className={styles.blocks}>
@@ -70,7 +70,7 @@ function JustifyItem() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
                     </div>
-                    <p className={styles.header}>justify-content: space-evenly;
+                    <p className={styles.code}>justify-content: space-evenly;
                     </p>
                 </div>
             </div>

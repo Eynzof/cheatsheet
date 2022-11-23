@@ -35,7 +35,7 @@
 
 .lore {
     margin-top: 25px;
-    font-size: 12px;
+    font-size: 14px;
     color: #bbb;
     font-family: "Noto Serif SC", serif;
 }
@@ -65,9 +65,11 @@
 }
 
 .header {
-    font-size: 12px;
+    font-size: 16px;
+}
 
-    /*font-family: custom-sans-serif, serif;*/
+.code {
+    font-size: 12px;
 }
 
 .blocks {

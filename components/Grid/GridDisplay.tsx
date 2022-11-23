@@ -15,13 +15,12 @@ const GridDisplay = () => {
                     <div className={styles.blocks}>
                         <div className={styles.grid}
                              style={{
-                                 gridTemplateColumns: '12px 12px 12px',
-                                 gridTemplateRows: '12px 12px 12px',
+
                              }}>
                             {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                             style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                         </div>
-                        <p className={styles.header}>display: grid; <Tooltip closeDelay={1500} label='默认情况下 grid 是块级元素，一个grid独占一行' fontSize='md'>
+                        <p className={styles.code}>display: grid; <Tooltip closeDelay={500} label='默认情况下 grid 是块级元素，一个grid独占一行' fontSize='md'>
                             <QuestionOutlineIcon />
                         </Tooltip>
                         </p>
@@ -31,21 +30,19 @@ const GridDisplay = () => {
                     <div className={styles.blocks}>
                         <div className={styles.grid}
                              style={{
-                                 gridTemplateColumns: '12px 12px 12px',
-                                 gridTemplateRows: '12px 12px 12px',
+
                              }}>
                             {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                             style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                         </div>
                         <div className={styles.grid}
                              style={{
-                                 gridTemplateColumns: '12px 12px 12px',
-                                 gridTemplateRows: '12px 12px 12px',
+
                              }}>
                             {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                             style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                         </div>
-                        <p className={styles.header}>display: inline-grid; <Tooltip closeDelay={1500} hasArrow  label='将 grid 改为行内元素，允许同一行内存在多个 grid' fontSize='md'>
+                        <p className={styles.code}>display: inline-grid; <Tooltip closeDelay={500} hasArrow  label='将 grid 改为行内元素，允许同一行内存在多个 grid' fontSize='md'>
                             <QuestionOutlineIcon />
                         </Tooltip>
                         </p>
@@ -55,14 +52,13 @@ const GridDisplay = () => {
                     <div className={styles.blocks}>
                         <div className={styles.grid}
                              style={{
-                                 gridTemplateColumns: '12px 12px 12px',
-                                 gridTemplateRows: '12px 12px 12px',
+
                              }}>
                             {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                             style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                         </div>
-                        <p className={styles.header}>display: sub-grid; <Tooltip closeDelay={1500} label='详见 https://ishadeed.com/article/learn-css-subgrid/' fontSize='md'>
-                            <QuestionOutlineIcon />
+                        <p className={styles.code}>display: sub-grid; <Tooltip closeDelay={500} label='点击访问 https://ishadeed.com/article/learn-css-subgrid/' fontSize='md'>
+                            <a href="https://ishadeed.com/article/learn-css-subgrid/"><QuestionOutlineIcon /></a>
                         </Tooltip>
                         </p>
                     </div>

@@ -15,7 +15,7 @@ function GridGap() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                     </div>
-                    <p className={styles.header}>grid-row-gap: 1px;<br/>grid-column-gap: 9px;
+                    <p className={styles.code}>grid-row-gap: 1px;<br/>grid-column-gap: 9px;
                     </p>
                 </div>
                 <div className={styles.blocks}>
@@ -24,7 +24,7 @@ function GridGap() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                     </div>
-                    <p className={styles.header}>grid-gap: 1px 9px;
+                    <p className={styles.code}>grid-gap: 1px 9px;
                     </p>
                 </div>
                 <div className={styles.blocks}>
@@ -33,7 +33,7 @@ function GridGap() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                     </div>
-                    <p className={styles.header}>grid-gap: 6px;
+                    <p className={styles.code}>grid-gap: 6px;
                     </p>
                 </div>
             </div>

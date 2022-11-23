@@ -16,7 +16,7 @@ function JustifyItem() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`, minHeight:'5px'}}></div>)}
                     </div>
-                    <p className={styles.header}>justify-item: start;
+                    <p className={styles.code}>justify-item: start;
                     </p>
                 </div>
                 <div className={styles.blocks}>
@@ -25,7 +25,7 @@ function JustifyItem() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`, minHeight:'5px'}}></div>)}
                     </div>
-                    <p className={styles.header}>justify-item: end;
+                    <p className={styles.code}>justify-item: end;
                     </p>
                 </div>
                 <div className={styles.blocks}>
@@ -34,7 +34,7 @@ function JustifyItem() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`, minHeight:'5px'}}></div>)}
                     </div>
-                    <p className={styles.header}>justify-item: center;
+                    <p className={styles.code}>justify-item: center;
                     </p>
                 </div>
                 <div className={styles.blocks}>
@@ -43,7 +43,7 @@ function JustifyItem() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                     </div>
-                    <p className={styles.header}>align-item: stretch;
+                    <p className={styles.code}>align-item: stretch;
                     </p>
                 </div>
             </div>
