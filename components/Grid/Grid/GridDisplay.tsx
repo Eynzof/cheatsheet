@@ -19,7 +19,15 @@ const GridDisplay = () => {
                             {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                             style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                         </div>
-                        <p className={styles.header}>display: grid;<br/> 默认情况下 grid 是块级元素
+                        <p className={styles.header}>display: grid;
+                        </p>
+                    </div>
+                </div>
+                <div className={styles.sections}>
+                    <div className={styles.blocks} >
+                        <p
+                            style={{borderBottom: '1px solid #aaa'}}
+                            className={styles.desc}>默认情况下 grid 是块级元素
                         </p>
                     </div>
                 </div>
@@ -29,7 +37,6 @@ const GridDisplay = () => {
                              style={{
                                  gridTemplateColumns: '12px 12px 12px',
                                  gridTemplateRows: '12px 12px 12px',
-                                 display: 'inline-grid'
                              }}>
                             {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                             style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
@@ -38,13 +45,20 @@ const GridDisplay = () => {
                              style={{
                                  gridTemplateColumns: '12px 12px 12px',
                                  gridTemplateRows: '12px 12px 12px',
-                                 display: 'inline-grid'
                              }}>
                             {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                             style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                         </div>
-                        <p className={styles.header}>display: inline-grid;<br/> 改为行内元素</p>
-
+                        <p className={styles.header}>display: grid;
+                        </p>
+                    </div>
+                </div>
+                <div className={styles.sections}>
+                    <div className={styles.blocks}>
+                        <p
+                            style={{borderBottom: '1px solid #aaa'}}
+                            className={styles.desc}>改为行内元素
+                        </p>
                     </div>
                 </div>
                 <div className={styles.sections}>
@@ -57,7 +71,15 @@ const GridDisplay = () => {
                             {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                             style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                         </div>
-                        <p className={styles.header}>display: subgrid;<br/> 详见 <a href="https://ishadeed.com/article/learn-css-subgrid/">Learn CSS Subgrid - Ahmad Shadeed</a>
+                        <p className={styles.header}>display: grid;
+                        </p>
+                    </div>
+                </div>
+                <div className={styles.sections}>
+                    <div className={styles.blocks}>
+                        <p
+                            className={styles.desc}
+                           style={{borderBottom: '1px solid #aaa'}}>详见 <a href="https://ishadeed.com/article/learn-css-subgrid/">Learn CSS Subgrid - Ahmad Shadeed</a>
                         </p>
                     </div>
                 </div>

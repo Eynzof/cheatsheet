@@ -1,3 +1,16 @@
+
+@font-face {
+    font-family: custom-sans-serif;
+    src: local("Inconsolata"), local(Segoe UI);
+    unicode-range: U+00-024F;
+}
+
+@font-face {
+    font-family: custom-sans-serif;
+    src: local("Noto Serif SC"), local("微软雅黑");
+    unicode-range: U+4E00-9FFF;
+}
+
 .main {
     height: 100vh;
     color: #fff;
@@ -19,15 +32,18 @@
     color: #fff;
     font-family: "Inconsolata", monospace;
 }
-.header {
-    font-size: 16px
-}
 
 .lore {
     margin-top: 25px;
     font-size: 12px;
     color: #bbb;
 }
+
+.desc {
+    font-family: "Noto Serif SC", serif;
+    font-size: 12px;
+}
+
 
 .sections {
 
@@ -50,7 +66,7 @@
 .header {
     font-size: 12px;
 
-    font-family: "Inconsolata",monospace;
+    /*font-family: custom-sans-serif, serif;*/
 }
 
 .blocks {
