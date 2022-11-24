@@ -1,14 +1,49 @@
+@font-face {
+    font-family: custom-sans-serif;
+    src: local("Inconsolata"), local(Segoe UI);
+    unicode-range: U+00-024F;
+}
+
+@font-face {
+    font-family: custom-sans-serif;
+    src: local("Noto Serif SC"), local("微软雅黑");
+    unicode-range: U+4E00-9FFF;
+}
+
+@keyframes child-fade-in {
+    0% {
+        opacity: 0
+    }
+    10% {
+        opacity: 0
+    }
+    20% {
+        opacity: 1
+    }
+    60% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
 .main {
     height: 100vh;
     color: #fff;
     font-family: "Inconsolata", monospace;
     padding: 1rem 4rem;
 }
+
 .sets {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-
+    grid-gap: 20px 20px;
 }
+
 .set {
     /*border: 1px solid #fff*/
 }
@@ -19,15 +54,19 @@
     color: #fff;
     font-family: "Inconsolata", monospace;
 }
-.header {
-    font-size: 16px
-}
 
 .lore {
     margin-top: 25px;
-    font-size: 12px;
+    font-size: 14px;
     color: #bbb;
+    font-family: "Noto Serif SC", serif;
 }
+
+.desc {
+    font-family: "Noto Serif SC", serif;
+    font-size: 12px;
+}
+
 
 .sections {
 
@@ -38,19 +77,65 @@
     border: 1px solid #111111;
 }
 
+.atoma {
+    display: block;
+    border: 1px solid #111111;
+    animation-name: child-fade-in;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+}
+
+.grid .atoma:nth-child(1) {
+    animation-delay: 0.4s;
+}
+
+.grid .atoma:nth-child(2) {
+    animation-delay: 0.8s;
+}
+
+.grid .atoma:nth-child(3) {
+    animation-delay: 1.2s;
+}
+
+.grid .atoma:nth-child(4) {
+    animation-delay: 1.6s;
+}
+
+.grid .atoma:nth-child(5) {
+    animation-delay: 2.0s;
+}
+
+.grid .atoma:nth-child(6) {
+    animation-delay: 2.4s;
+}
+
+.grid .atoma:nth-child(7) {
+    animation-delay: 2.8s;
+}
+
+.grid .atoma:nth-child(8) {
+    animation-delay: 3.2s;
+}
+
+.grid .atoma:nth-child(9) {
+    animation-delay: 3.6s;
+}
+
 .grid {
     width: 46px;
     height: 46px;
     padding: 4px;
     margin-right: 16px;
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     display: grid;
 }
 
 .header {
-    font-size: 12px;
+    font-size: 16px;
+}
 
-    font-family: "Inconsolata",monospace;
+.code {
+    font-size: 12px;
 }
 
 .blocks {
@@ -61,3 +146,4 @@
     align-items: center;
     color: #fff;
 }
+

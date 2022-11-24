@@ -1,9 +1,14 @@
 import React from 'react';
 import styles from "../styles/grid.module.css";
-import GridTemplate from "../components/Grid/GridTemplate/GridTemplate";
-import GridGap from "../components/Grid/GridGap/GridGap";
+import GridTemplate from "../components/Grid/GridTemplate";
+import GridGap from "../components/Grid/GridGap";
 import Link from "next/link";
-
+import JustifyItem from "../components/Grid/JustifyItem";
+import AlignItem from "../components/Grid/AlignItem";
+import JustifyContent from "../components/Grid/JustifyContent";
+import AlignContent from "../components/Grid/AlignContent";
+import GridDisplay from '../components/Grid/GridDisplay';
+import GridAutoFlow from "../components/Grid/GridAutoFlow";
 function Grid() {
     return (
         <>
@@ -11,8 +16,14 @@ function Grid() {
             <div className={styles.main}>
                 <h2>Container</h2>
                 <div className={styles.sets}>
+                    <GridDisplay />
                     <GridTemplate/>
+                    <JustifyItem/>
+                    <AlignItem/>
+                    <JustifyContent/>
+                    <AlignContent/>
                     <GridGap/>
+                    <GridAutoFlow/>
                 </div>
             </div></>
     );

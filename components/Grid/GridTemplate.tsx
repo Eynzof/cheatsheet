@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../../../styles/grid.module.css";
+import styles from "../../styles/grid.module.css";
 
 // @ts-ignore
 function GridTemplate() {
@@ -7,7 +7,7 @@ function GridTemplate() {
         <div className={styles.set}>
             <div className={styles.header}>grid-template</div>
             <div className={styles.lore}>
-                <p>Defines the rows and columns of the grid.</p>
+                <p>定义网格的行数和列数</p>
             </div>
             <div className={styles.sections}>
                 <div className={styles.blocks}>
@@ -16,7 +16,7 @@ function GridTemplate() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                     </div>
-                    <p className={styles.header}>grid-template-columns: 12px 12px 12px;<br/>grid-template-rows:
+                    <p className={styles.code}>grid-template-columns: 12px 12px 12px;<br/>grid-template-rows:
                         12px 12px 12px;
                     </p>
                 </div>
@@ -26,7 +26,7 @@ function GridTemplate() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                     </div>
-                    <p className={styles.header}>grid-template-columns: repeat(3, 1fr);<br/>grid-template-columns:
+                    <p className={styles.code}>grid-template-columns: repeat(3, 1fr);<br/>grid-template-columns:
                         repeat(3, 1fr)
                     </p>
                 </div>
@@ -36,7 +36,7 @@ function GridTemplate() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                     </div>
-                    <p className={styles.header}>grid-template-columns: 8px auto 8px;<br/>
+                    <p className={styles.code}>grid-template-columns: 8px auto 8px;<br/>
                         grid-template-rows: 8px auto 12px;
                     </p>
                 </div>
@@ -46,7 +46,7 @@ function GridTemplate() {
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                     </div>
-                    <p className={styles.header}>grid-template-columns: 20% 20% auto;<br/>
+                    <p className={styles.code}>grid-template-columns: 20% 20% auto;<br/>
                         grid-template-rows: 20% auto 20%;
                     </p>
                 </div>
