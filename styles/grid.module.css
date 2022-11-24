@@ -53,6 +53,8 @@
     margin-left: 16px;
     color: #fff;
     font-family: "Inconsolata", monospace;
+    display: flex;
+    align-items: center;
 }
 
 .lore {

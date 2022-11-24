@@ -10,7 +10,7 @@ import FlexAlignContents from "../components/Flex/FlexAlignContents";
 
 function Flex() {
     return (<>
-        <h1 className={styles.title}><Link href={"/"} style={{fontSize: "32px"}}>&lt; </Link>Flex</h1>
+        <h1 className={styles.title}><Link href={"/"} style={{fontSize: "32px"}}>←&nbsp;</Link>Flex</h1>
         <div className={styles.main}>
             <h2>Container</h2>
             <div className={styles.sets}>
