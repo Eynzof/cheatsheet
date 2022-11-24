@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "../../styles/grid.module.css";
 import {Tooltip} from "@chakra-ui/react";
 import {QuestionOutlineIcon} from "@chakra-ui/icons";
+import QuestionToolTip from "../utils/QuestionToolTip";
 
 const GridAutoFlow = () => {
     return (
@@ -129,9 +130,7 @@ const GridAutoFlow = () => {
                                  }}>
                             </div>
                         </div>
-                        <p className={styles.code}>grid-auto-flow: row dense;<Tooltip closeDelay={500} hasArrow  label='“dense”会尝试用后续的小元素填充网格中的空位，这可能导致元素出现乱序' fontSize='md'>
-                            <QuestionOutlineIcon />
-                        </Tooltip>
+                        <p className={styles.code}>grid-auto-flow: row dense;<QuestionToolTip label='“dense”会尝试用后续的小元素填充网格中的空位，可能导致乱序'/>
                         </p>
                     </div>
                 </div>

@@ -1,17 +1,18 @@
-import styles from '../styles/flex.module.css';
+import styles from '../styles/grid.module.css';
+import Link from "next/link";
+import React from "react";
+import FlexDisplay from "../components/Flex/FlexDisplay";
 
 function Flex() {
-    return(<div className={styles.main}>
-        <header className={styles.header}>Flex</header>
-        <div className={styles.sections}>
-            <section className={styles.section}>1</section>
-            <section className={styles.section}>2</section>
-            <section className={styles.section}>3</section>
-            <section className={styles.section}>4</section>
-            <section className={styles.section}>5</section>
-            <section className={styles.section}>6</section>
+    return (<>
+        <h1 className={styles.title}><Link href={"/"} style={{fontSize: "32px"}}>&lt; </Link>Flex</h1>
+        <div className={styles.main}>
+            <h2>Container</h2>
+            <div className={styles.sets}>
+                <FlexDisplay/>
+            </div>
         </div>
-    </div>)
+    </>)
 }
 
 export default Flex
