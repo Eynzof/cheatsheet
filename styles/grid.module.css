@@ -10,6 +10,27 @@
     unicode-range: U+4E00-9FFF;
 }
 
+@keyframes child-fade-in {
+    0% {
+        opacity: 0
+    }
+    10% {
+        opacity: 0
+    }
+    20% {
+        opacity: 1
+    }
+    60% {
+        opacity: 1
+    }
+    80% {
+        opacity: 0
+    }
+    100% {
+        opacity: 0
+    }
+}
+
 .main {
     height: 100vh;
     color: #fff;
