@@ -19,7 +19,7 @@ const FlexDisplay = () => {
                     <div className={styles.flex}>
                         {FlexBlock}
                     </div>
-                    <p className={styles.code}>display: grid; <QuestionToolTip
+                    <p className={styles.code}>display: flex; <QuestionToolTip
                         label={"默认情况下 flex 是块级元素，一个 flex 独占一行"}/></p>
                 </FlexWrapper>
                 <FlexWrapper>
@@ -31,7 +31,7 @@ const FlexDisplay = () => {
                          style={{}}>
                         {FlexBlock}
                     </div>
-                    <p className={styles.code}>display: inline-grid; <QuestionToolTip
+                    <p className={styles.code}>display: inline-flex; <QuestionToolTip
                         label={"将 flex 改为行内元素，允许同一行内存在多个 flex"}/>
                     </p>
                 </FlexWrapper>

@@ -8,6 +8,7 @@ import FlexJustifyContent from "../components/Flex/FlexJustifyContent";
 import FlexAlignItems from "../components/Flex/FlexAlignItems";
 import FlexAlignContents from "../components/Flex/FlexAlignContents";
 import Footer from "../components/footer";
+import FlexAxis from "../components/Flex/FlexAxis";
 
 function Flex() {
     return (<>
@@ -17,8 +18,8 @@ function Flex() {
             <div className={styles.sets}>
                 <FlexDisplay/>
                 <FlexDirection/>
+                <FlexAxis/>
                 <FlexWrap/>
-
                 <FlexAlignItems/>
                 <FlexAlignContents/>
                 <FlexJustifyContent/>
