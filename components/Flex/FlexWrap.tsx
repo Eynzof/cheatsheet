@@ -5,7 +5,7 @@ import {FlexBlock, FlexBlockTen, FlexWrapper} from "./FlexBlock";
 const FlexWrap = () => {
 
     const title = "flex-wrap"
-    const lore = "确定主轴(main-axis)"
+    const lore = "元素自动换行"
 
     return (
         <div>

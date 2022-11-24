@@ -4,6 +4,7 @@ import React from "react";
 import FlexDisplay from "../components/Flex/FlexDisplay";
 import FlexDirection from "../components/Flex/FlexDirection";
 import FlexWrap from "../components/Flex/FlexWrap";
+import FlexJustifyContent from "../components/Flex/FlexJustifyContent";
 
 function Flex() {
     return (<>
@@ -14,6 +15,7 @@ function Flex() {
                 <FlexDisplay/>
                 <FlexDirection/>
                 <FlexWrap/>
+                <FlexJustifyContent/>
             </div>
         </div>
     </>)
