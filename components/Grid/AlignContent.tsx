@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from "../../styles/grid.module.css";
 
+import {GridBlock} from "./GridBlock";
+
 // @ts-ignore
 function AlignContent() {
     return (
@@ -13,8 +15,7 @@ function AlignContent() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', alignContent: 'start'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>align-content: start;
                     </p>
@@ -22,8 +23,7 @@ function AlignContent() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', alignContent: 'end'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>align-content: end;
                     </p>
@@ -31,8 +31,7 @@ function AlignContent() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', alignContent: 'center'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>align-content: center;
                     </p>
@@ -40,8 +39,7 @@ function AlignContent() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', alignContent: 'stretch'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>align-content: stretch;
                     </p>
@@ -49,8 +47,7 @@ function AlignContent() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', alignContent: 'space-around'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>align-content: space-around;
                     </p>
@@ -58,8 +55,7 @@ function AlignContent() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', alignContent: 'space-between'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>align-content: space-between;
                     </p>
@@ -67,8 +63,7 @@ function AlignContent() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', alignContent: 'space-evenly'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>align-content: space-evenly;
                     </p>

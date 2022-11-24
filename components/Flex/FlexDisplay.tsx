@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../../styles/grid.module.css";
+import styles from "../../styles/flex.module.css";
 import QuestionToolTip from "../utils/QuestionToolTip";
 
 const FlexDisplay = () => {
@@ -16,27 +16,25 @@ const FlexDisplay = () => {
                 </div>
                 <div className={styles.sections}>
                     <div className={styles.blocks}>
-                        <div className={styles.grid}
-                             style={{}}>
-                            {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                            style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
+                        <div className={styles.flex}>
+                            {block}
                         </div>
-                        <p className={styles.code}>display: grid; <QuestionToolTip label={"默认情况下 grid 是块级元素，一个grid独占一行"}/></p>
+                        <p className={styles.code}>display: grid; <QuestionToolTip
+                            label={"默认情况下 flex 是块级元素，一个 flex 独占一行"}/></p>
                     </div>
                 </div>
                 <div className={styles.sections}>
                     <div className={styles.blocks}>
-                        <div className={styles.grid}
+                        <div className={styles.flex}
                              style={{}}>
-                            {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                            style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
+                            {block}
                         </div>
-                        <div className={styles.grid}
+                        <div className={styles.flex}
                              style={{}}>
-                            {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                            style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
+                            {block}
                         </div>
-                        <p className={styles.code}>display: inline-grid; <QuestionToolTip label={"将 grid 改为行内元素，允许同一行内存在多个 grid"}/>
+                        <p className={styles.code}>display: inline-grid; <QuestionToolTip
+                            label={"将 flex 改为行内元素，允许同一行内存在多个 flex"}/>
                         </p>
                     </div>
                 </div>
@@ -44,5 +42,8 @@ const FlexDisplay = () => {
         </div>
     );
 };
+
+const block = [...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
+                                                             style={{backgroundColor: `rgba(33, 255, 214, ${1 - i * 0.07})`}}></div>)
 
 export default FlexDisplay;

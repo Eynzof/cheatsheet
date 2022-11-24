@@ -12,34 +12,59 @@ function JustifyItem() {
             <div className={styles.sections}>
                 <div className={styles.blocks}>
                     <div className={styles.grid}
-                         style={{gridTemplateColumns: '12px 12px 12px', gridTemplateRows: '12px 12px 12px', justifyItems: 'start'}}>
+                         style={{
+                             gridTemplateColumns: '12px 12px 12px',
+                             gridTemplateRows: '12px 12px 12px',
+                             justifyItems: 'start'
+                         }}>
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`, minWidth:'5px'}}></div>)}
+                                                                        style={{
+                                                                            backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`,
+                                                                            minWidth: '5px'
+                                                                        }}></div>)}
                     </div>
                     <p className={styles.code}>justify-item: start;
                     </p>
                 </div>
                 <div className={styles.blocks}>
                     <div className={styles.grid}
-                         style={{gridTemplateColumns: '12px 12px 12px', gridTemplateRows: '12px 12px 12px', justifyItems: 'end'}}>
+                         style={{
+                             gridTemplateColumns: '12px 12px 12px',
+                             gridTemplateRows: '12px 12px 12px',
+                             justifyItems: 'end'
+                         }}>
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`, minWidth:'5px'}}></div>)}
+                                                                        style={{
+                                                                            backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`,
+                                                                            minWidth: '5px'
+                                                                        }}></div>)}
                     </div>
                     <p className={styles.code}>justify-item: end;
                     </p>
                 </div>
                 <div className={styles.blocks}>
                     <div className={styles.grid}
-                         style={{gridTemplateColumns: '12px 12px 12px', gridTemplateRows: '12px 12px 12px', justifyItems: 'center'}}>
+                         style={{
+                             gridTemplateColumns: '12px 12px 12px',
+                             gridTemplateRows: '12px 12px 12px',
+                             justifyItems: 'center'
+                         }}>
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`, minWidth:'5px'}}></div>)}
+                                                                        style={{
+                                                                            backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`,
+                                                                            minWidth: '5px'
+                                                                        }}></div>)}
                     </div>
                     <p className={styles.code}>justify-item: center;
                     </p>
                 </div>
                 <div className={styles.blocks}>
                     <div className={styles.grid}
-                         style={{gridTemplateColumns: '12px 12px 12px', gridTemplateRows: '12px 12px 12px', justifyItems: 'stretch'}}>
+                         style={{
+                             gridTemplateColumns: '12px 12px 12px',
+                             gridTemplateRows: '12px 12px 12px',
+                             justifyItems: 'stretch'
+                         }}>
                         {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
                                                                         style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})`}}></div>)}
                     </div>
