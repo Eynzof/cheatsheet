@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "../../styles/flex.module.css";
-import {FlexBlock} from "./FlexBlock";
+import {FlexBlock, FlexWrapper} from "./FlexBlock";
 
 const FlexDirection = () => {
 
@@ -14,38 +14,30 @@ const FlexDirection = () => {
                 <div className={styles.lore}>
                     <p>{lore}</p>
                 </div>
-                <div className={styles.sections}>
-                    <div className={styles.blocks}>
-                        <div className={styles.flex}>
-                            {FlexBlock}
-                        </div>
-                        <p className={styles.code}>flex-direction: row;</p>
+                <FlexWrapper>
+                    <div className={styles.flex}>
+                        {FlexBlock}
                     </div>
-                </div>
-                <div className={styles.sections}>
-                    <div className={styles.blocks}>
-                        <div className={styles.flex} style={{flexDirection: 'row-reverse'}}>
-                            {FlexBlock}
-                        </div>
-                        <p className={styles.code}>flex-direction: row-reverse;</p>
+                    <p className={styles.code}>flex-direction: row;</p>
+                </FlexWrapper>
+                <FlexWrapper>
+                    <div className={styles.flex} style={{flexDirection: 'row-reverse'}}>
+                        {FlexBlock}
                     </div>
-                </div>
-                <div className={styles.sections}>
-                    <div className={styles.blocks}>
-                        <div className={styles.flex} style={{flexDirection: 'column'}}>
-                            {FlexBlock}
-                        </div>
-                        <p className={styles.code}>flex-direction: column;</p>
+                    <p className={styles.code}>flex-direction: row-reverse;</p>
+                </FlexWrapper>
+                <FlexWrapper>
+                    <div className={styles.flex} style={{flexDirection: 'column-reverse'}}>
+                        {FlexBlock}
                     </div>
-                </div>
-                <div className={styles.sections}>
-                    <div className={styles.blocks}>
-                        <div className={styles.flex} style={{flexDirection: 'column-reverse'}}>
-                            {FlexBlock}
-                        </div>
-                        <p className={styles.code}>flex-direction: column-reverse;</p>
+                    <p className={styles.code}>flex-direction: column-reverse;</p>
+                </FlexWrapper>
+                <FlexWrapper>
+                    <div className={styles.flex} style={{flexDirection: 'column-reverse'}}>
+                        {FlexBlock}
                     </div>
-                </div>
+                    <p className={styles.code}>flex-direction: column-reverse;</p>
+                </FlexWrapper>
             </div>
         </div>
     );

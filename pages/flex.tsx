@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import FlexDisplay from "../components/Flex/FlexDisplay";
 import FlexDirection from "../components/Flex/FlexDirection";
+import FlexWrap from "../components/Flex/FlexWrap";
 
 function Flex() {
     return (<>
@@ -12,6 +13,7 @@ function Flex() {
             <div className={styles.sets}>
                 <FlexDisplay/>
                 <FlexDirection/>
+                <FlexWrap/>
             </div>
         </div>
     </>)
