@@ -2,6 +2,7 @@ import styles from '../styles/grid.module.css';
 import Link from "next/link";
 import React from "react";
 import FlexDisplay from "../components/Flex/FlexDisplay";
+import FlexDirection from "../components/Flex/FlexDirection";
 
 function Flex() {
     return (<>
@@ -10,6 +11,7 @@ function Flex() {
             <h2>Container</h2>
             <div className={styles.sets}>
                 <FlexDisplay/>
+                <FlexDirection/>
             </div>
         </div>
     </>)
