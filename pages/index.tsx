@@ -13,7 +13,7 @@ export default function Page() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Welcome to <a href="https://github.com/Eynzof">Enzo</a>&apos;s Cheatsheet!
+                    <a href="https://github.com/Eynzof">Enzo</a>&apos;s Cheatsheet
                 </h1>
 
                 <div className={styles.grid}>
