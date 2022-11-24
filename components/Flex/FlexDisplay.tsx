@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "../../styles/flex.module.css";
 import QuestionToolTip from "../utils/QuestionToolTip";
+import {FlexBlock} from "./FlexBlock";
 
 const FlexDisplay = () => {
 
@@ -17,7 +18,7 @@ const FlexDisplay = () => {
                 <div className={styles.sections}>
                     <div className={styles.blocks}>
                         <div className={styles.flex}>
-                            {block}
+                            {FlexBlock}
                         </div>
                         <p className={styles.code}>display: grid; <QuestionToolTip
                             label={"默认情况下 flex 是块级元素，一个 flex 独占一行"}/></p>
@@ -27,11 +28,11 @@ const FlexDisplay = () => {
                     <div className={styles.blocks}>
                         <div className={styles.flex}
                              style={{}}>
-                            {block}
+                            {FlexBlock}
                         </div>
                         <div className={styles.flex}
                              style={{}}>
-                            {block}
+                            {FlexBlock}
                         </div>
                         <p className={styles.code}>display: inline-grid; <QuestionToolTip
                             label={"将 flex 改为行内元素，允许同一行内存在多个 flex"}/>
@@ -43,7 +44,5 @@ const FlexDisplay = () => {
     );
 };
 
-const block = [...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                             style={{backgroundColor: `rgba(33, 255, 214, ${1 - i * 0.07})`}}></div>)
 
 export default FlexDisplay;
