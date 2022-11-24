@@ -21,7 +21,7 @@ export default function Page() {
                         <p>Learn more about grid display</p>
                     </Link>
 
-                    <Link href='./grid' className={styles.card}><h2>Flex &rarr;</h2>
+                    <Link href='./flex' className={styles.card}><h2>Flex &rarr;</h2>
                         <p>Learn more about flex display</p>
                     </Link>
 

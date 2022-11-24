@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from "../../styles/grid.module.css";
+import {GridBlock} from "./GridBlock";
 
 // @ts-ignore
 function JustifyItem() {
@@ -13,8 +14,7 @@ function JustifyItem() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', justifyContent: 'start'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>justify-content: start;
                     </p>
@@ -22,8 +22,7 @@ function JustifyItem() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', justifyContent: 'end'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>justify-content: end;
                     </p>
@@ -31,8 +30,7 @@ function JustifyItem() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', justifyContent: 'center'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>justify-content: center;
                     </p>
@@ -40,8 +38,7 @@ function JustifyItem() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', justifyContent: 'stretch'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>justify-content: stretch;
                     </p>
@@ -49,8 +46,7 @@ function JustifyItem() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', justifyContent: 'space-around'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>justify-content: space-around;
                     </p>
@@ -58,8 +54,7 @@ function JustifyItem() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', justifyContent: 'space-between'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>justify-content: space-between;
                     </p>
@@ -67,8 +62,7 @@ function JustifyItem() {
                 <div className={styles.blocks}>
                     <div className={styles.grid}
                          style={{gridTemplateColumns: '7px 7px 7px', gridTemplateRows: '7px 7px 7px', justifyContent: 'space-evenly'}}>
-                        {[...Array(9)].map((e, i) => i).map((i) => <div className={styles.atom} key={i}
-                                                                        style={{backgroundColor: `rgba(255, 241, 108, ${1 - i * 0.07})` }}></div>)}
+                        {GridBlock}
                     </div>
                     <p className={styles.code}>justify-content: space-evenly;
                     </p>

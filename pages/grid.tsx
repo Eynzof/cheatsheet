@@ -12,7 +12,7 @@ import GridAutoFlow from "../components/Grid/GridAutoFlow";
 function Grid() {
     return (
         <>
-            <h1 className={styles.title}><Link href={"/"} style={{fontSize:"32px"}}>&lt; </Link>GRID</h1>
+            <h1 className={styles.title} ><Link href={"/"} style={{fontSize:"32px"}}>←&nbsp;</Link>GRID</h1>
             <div className={styles.main}>
                 <h2>Container</h2>
                 <div className={styles.sets}>
@@ -27,7 +27,7 @@ function Grid() {
                 </div>
             </div></>
     );
-};
+}
 
 Grid.propTypes = {};
 
