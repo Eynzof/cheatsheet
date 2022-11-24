@@ -9,6 +9,7 @@ import JustifyContent from "../components/Grid/JustifyContent";
 import AlignContent from "../components/Grid/AlignContent";
 import GridDisplay from '../components/Grid/GridDisplay';
 import GridAutoFlow from "../components/Grid/GridAutoFlow";
+import Footer from "../components/footer";
 function Grid() {
     return (
         <>
@@ -25,6 +26,7 @@ function Grid() {
                     <GridGap/>
                     <GridAutoFlow/>
                 </div>
+                <Footer/>
             </div></>
     );
 }

@@ -1,0 +1,13 @@
+.footer {
+    margin-top: 2.5rem;
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.6;
+    width: 400px;
+    border-top: 1px solid #aaa;
+    padding-bottom: 1rem;
+}
+
+.footer a {
+    text-decoration: underline;
+}

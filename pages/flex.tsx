@@ -7,6 +7,7 @@ import FlexWrap from "../components/Flex/FlexWrap";
 import FlexJustifyContent from "../components/Flex/FlexJustifyContent";
 import FlexAlignItems from "../components/Flex/FlexAlignItems";
 import FlexAlignContents from "../components/Flex/FlexAlignContents";
+import Footer from "../components/footer";
 
 function Flex() {
     return (<>
@@ -22,6 +23,7 @@ function Flex() {
                 <FlexAlignContents/>
                 <FlexJustifyContent/>
             </div>
+            <Footer/>
         </div>
     </>)
 }
