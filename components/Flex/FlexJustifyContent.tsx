@@ -55,5 +55,4 @@ const FlexJustifyContent = () => {
     );
 };
 
-
 export default FlexJustifyContent;
