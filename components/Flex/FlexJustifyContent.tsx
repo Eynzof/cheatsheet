@@ -5,7 +5,7 @@ import {FlexBlockThree, FlexWrapper} from "./FlexBlock";
 const FlexJustifyContent = () => {
 
     const title = "justify-content"
-    const lore = "排布多列相对于页面的位置"
+    const lore = "在主轴方向上的排布"
 
     return (
         <div>

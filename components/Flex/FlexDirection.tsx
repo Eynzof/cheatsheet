@@ -5,7 +5,7 @@ import {FlexBlock, FlexWrapper} from "./FlexBlock";
 const FlexDirection = () => {
 
     const title = "flex-direction"
-    const lore = "确定主轴(main-axis)"
+    const lore = "确定主轴方向"
 
     return (
         <div>
