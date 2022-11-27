@@ -25,9 +25,9 @@ export default function Page() {
                         <p>Learn more about flex display</p>
                     </Link>
 
-                    {/*<Link href='./grid' className={styles.card}><h2>Shortcuts &rarr;</h2>*/}
-                    {/*    <p>Learn more about flex display</p>*/}
-                    {/*</Link>*/}
+                    <Link href='./shortcut' className={styles.card}><h2>Shortcuts &rarr;</h2>
+                        <p>Learn more about shortcuts in software</p>
+                    </Link>
 
                     {/*<Link href='./grid' className={styles.card}><h2>Regex &rarr;</h2>*/}
                     {/*    <p>Learn more about flex display</p>*/}
