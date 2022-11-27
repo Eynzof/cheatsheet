@@ -23,7 +23,12 @@ function ShortCut() {
                         <div className={styles.lore}>
                             <p>在编辑器中对代码文本进行的操作</p>
                         </div>
+                        <Line keys={["Command", "Option", "L"]} lore="格式化代码及导入"/>
                         <Line keys={["Ctrl", "Command", "L"]} lore="格式化导入"/>
+                        <Line keys={["Ctrl", "D"]} lore="复制行"/>
+                        <Line keys={["Command", "Delete"]} lore="删除行"/>
+                        <Line keys={["Shift", "F6"]} lore="重命名变量"/>
+                        <Line keys={["Command", "Shift", "A"]} lore="查找所有功能的快捷键"/>
                     </div>
                 </div>
                 <Footer/>
