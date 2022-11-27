@@ -3,6 +3,7 @@ import styles from "../styles/grid.module.css";
 import Link from "next/link";
 import Footer from "../components/footer";
 import Head from "next/head";
+import Line from "../components/Shortcut/Line";
 
 function ShortCut() {
     return (
@@ -22,20 +23,7 @@ function ShortCut() {
                         <div className={styles.lore}>
                             <p>在编辑器中对代码文本进行的操作</p>
                         </div>
-                        <div className={styles.sections} style={{
-                            display: 'grid',
-                            gridTemplateColumns: '2fr 1fr',
-                            alignItems: 'center',
-
-                        }}>
-                            <div>
-                                <kbd className="kbc-button">Ctrl</kbd> + <kbd
-                                className="kbc-button">Command</kbd> + <kbd
-                                className="kbc-button">L</kbd>
-                            </div>
-                            <p style={{display: 'inline-block', fontSize: 20}}>格式化导入</p>
-                        </div>
-
+                        <Line keys={["Ctrl", "Command", "L"]} lore="格式化导入"/>
                     </div>
                 </div>
                 <Footer/>
