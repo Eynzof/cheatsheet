@@ -27,10 +27,10 @@ const FlexDirection = () => {
                     <p className={styles.code}>flex-direction: row-reverse;</p>
                 </FlexWrapper>
                 <FlexWrapper>
-                    <div className={styles.flex} style={{flexDirection: 'column-reverse'}}>
+                    <div className={styles.flex} style={{flexDirection: 'column'}}>
                         {FlexBlock}
                     </div>
-                    <p className={styles.code}>flex-direction: column-reverse;</p>
+                    <p className={styles.code}>flex-direction: column;</p>
                 </FlexWrapper>
                 <FlexWrapper>
                     <div className={styles.flex} style={{flexDirection: 'column-reverse'}}>

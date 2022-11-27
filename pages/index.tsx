@@ -13,7 +13,7 @@ export default function Page() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    Welcome to <a href="https://github.com/Eynzof">Enzo</a>&apos;s Cheatsheet!
+                    <a href="https://github.com/Eynzof">Enzo</a>&apos;s Cheatsheet
                 </h1>
 
                 <div className={styles.grid}>
@@ -25,13 +25,13 @@ export default function Page() {
                         <p>Learn more about flex display</p>
                     </Link>
 
-                    <Link href='./grid' className={styles.card}><h2>Shortcuts &rarr;</h2>
-                        <p>Learn more about flex display</p>
-                    </Link>
+                    {/*<Link href='./grid' className={styles.card}><h2>Shortcuts &rarr;</h2>*/}
+                    {/*    <p>Learn more about flex display</p>*/}
+                    {/*</Link>*/}
 
-                    <Link href='./grid' className={styles.card}><h2>Regex &rarr;</h2>
-                        <p>Learn more about flex display</p>
-                    </Link>
+                    {/*<Link href='./grid' className={styles.card}><h2>Regex &rarr;</h2>*/}
+                    {/*    <p>Learn more about flex display</p>*/}
+                    {/*</Link>*/}
                 </div>
             </main>
         </div>
