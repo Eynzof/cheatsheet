@@ -1,5 +1,5 @@
 // `pages/_app.js`
-import '../styles/globals.css';
+import '../src/styles/globals.css';
 
 // @ts-ignore
 export default function App({ Component, pageProps }) {
