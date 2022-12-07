@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from "../styles/grid.module.css";
+import styles from "../src/styles/grid.module.css";
 import Link from "next/link";
-import Footer from "../components/footer";
+import Footer from "../src/components/footer";
 import Head from "next/head";
-import Line from "../components/Shortcut/Line";
+import Line from "../src/components/Shortcut/Line";
 
 function ShortCut() {
     return (

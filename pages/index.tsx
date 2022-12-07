@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Head from 'next/head'
-import styles from '../styles/home.module.css'
-import Footer from "../components/footer";
+import styles from '../src/styles/home.module.css'
+import Footer from "../src/components/footer";
 import React from "react";
 
 export default function Page() {

@@ -1,14 +1,14 @@
-import styles from '../styles/grid.module.css';
+import styles from '../src/styles/grid.module.css';
 import Link from "next/link";
 import React from "react";
-import FlexDisplay from "../components/Flex/FlexDisplay";
-import FlexDirection from "../components/Flex/FlexDirection";
-import FlexWrap from "../components/Flex/FlexWrap";
-import FlexJustifyContent from "../components/Flex/FlexJustifyContent";
-import FlexAlignItems from "../components/Flex/FlexAlignItems";
-import FlexAlignContents from "../components/Flex/FlexAlignContents";
-import Footer from "../components/footer";
-import FlexAxis from "../components/Flex/FlexAxis";
+import FlexDisplay from "../src/components/Flex/FlexDisplay";
+import FlexDirection from "../src/components/Flex/FlexDirection";
+import FlexWrap from "../src/components/Flex/FlexWrap";
+import FlexJustifyContent from "../src/components/Flex/FlexJustifyContent";
+import FlexAlignItems from "../src/components/Flex/FlexAlignItems";
+import FlexAlignContents from "../src/components/Flex/FlexAlignContents";
+import Footer from "../src/components/footer";
+import FlexAxis from "../src/components/Flex/FlexAxis";
 import Head from "next/head";
 
 function Flex() {

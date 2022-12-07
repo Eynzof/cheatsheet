@@ -1,15 +1,15 @@
 import React from 'react';
-import styles from "../styles/grid.module.css";
-import GridTemplate from "../components/Grid/GridTemplate";
-import GridGap from "../components/Grid/GridGap";
+import styles from "../src/styles/grid.module.css";
+import GridTemplate from "../src/components/Grid/GridTemplate";
+import GridGap from "../src/components/Grid/GridGap";
 import Link from "next/link";
-import JustifyItem from "../components/Grid/JustifyItem";
-import AlignItem from "../components/Grid/AlignItem";
-import JustifyContent from "../components/Grid/JustifyContent";
-import AlignContent from "../components/Grid/AlignContent";
-import GridDisplay from '../components/Grid/GridDisplay';
-import GridAutoFlow from "../components/Grid/GridAutoFlow";
-import Footer from "../components/footer";
+import JustifyItem from "../src/components/Grid/JustifyItem";
+import AlignItem from "../src/components/Grid/AlignItem";
+import JustifyContent from "../src/components/Grid/JustifyContent";
+import AlignContent from "../src/components/Grid/AlignContent";
+import GridDisplay from '../src/components/Grid/GridDisplay';
+import GridAutoFlow from "../src/components/Grid/GridAutoFlow";
+import Footer from "../src/components/footer";
 import Head from "next/head";
 function Grid() {
     return (
