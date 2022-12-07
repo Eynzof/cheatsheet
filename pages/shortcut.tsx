@@ -18,7 +18,7 @@ function ShortCut() {
             <Header />
             <div className={styles.main}>
                 <h2>Web Storm</h2>
-                <div className={styles.sets}>
+                <div className={styles.shortcuts}>
                     <div className={styles.set} style={{display: 'flex', flexDirection: 'column'}}>
                         <div className={styles.header}>编辑器</div>
                         <div className={styles.lore}>
