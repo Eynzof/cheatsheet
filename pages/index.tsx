@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Head from 'next/head'
 import styles from '../styles/home.module.css'
+import Footer from "../components/footer";
+import React from "react";
 
 export default function Page() {
     return (
@@ -32,11 +34,12 @@ export default function Page() {
                         <p>Learn more about shortcuts in software</p>
                     </Link>
 
-                    {/*<Link href='./grid' className={styles.card}><h2>Regex &rarr;</h2>*/}
-                    {/*    <p>Learn more about flex display</p>*/}
-                    {/*</Link>*/}
+                    <Link href='./command' className={styles.card}><h2>Commands &rarr;</h2>
+                        <p>Learn more about commands in shell</p>
+                    </Link>
                 </div>
             </main>
+            <Footer/>
         </div>
     )
 }
