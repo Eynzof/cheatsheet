@@ -4,7 +4,7 @@ import styles from './footer.module.css';
 
 function Footer() {
     return (
-        <div className={styles.footer}>
+        <div className={styles.footer} style={{gridColumn: '1/3'}}>
             <p>Created by <a href="https://eynzo.me/">Enzo Li</a></p>
             <p>2022 November © <a href="">MasonicLab</a></p>
         </div>
