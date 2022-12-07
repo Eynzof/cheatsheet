@@ -1,0 +1,65 @@
+
+.shortcuts {
+    display: grid;
+    grid-gap: 40px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.title {
+    font-size: 48px;
+    margin-left: 16px;
+    color: #fff;
+    font-family: "Inconsolata", monospace;
+    display: flex;
+    align-items: center;
+}
+
+.lore {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #bbb;
+    font-family: "Noto Serif SC", serif;
+}
+
+.desc {
+    font-family: "Noto Serif SC", serif;
+    font-size: 12px;
+}
+
+
+.grid {
+    width: 46px;
+    height: 46px;
+    padding: 4px;
+    margin-right: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: grid;
+}
+
+.header {
+    font-size: 16px;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+@media screen and (max-width: 992px) {
+    .sets {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sets {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .sets {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+}
+
+@media screen and (max-width: 350px) {
+}

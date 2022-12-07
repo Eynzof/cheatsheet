@@ -20,9 +20,9 @@ function Flex() {
             <link rel="icon" href="/favicon.ico"/>
         </Head>
         <Header />
-        <div className={styles.main}>
+        <div className="main">
             <h2>Container</h2>
-            <div className={styles.sets}>
+            <div className="sets">
                 <FlexDisplay/>
                 <FlexDirection/>
                 <FlexAxis/>

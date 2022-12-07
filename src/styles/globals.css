@@ -1,3 +1,15 @@
+@font-face {
+  font-family: custom-sans-serif;
+  src: local("Inconsolata"), local(Segoe UI);
+  unicode-range: U+00-024F;
+}
+
+@font-face {
+  font-family: custom-sans-serif;
+  src: local("Noto Serif SC"), local("微软雅黑");
+  unicode-range: U+4E00-9FFF;
+}
+
 html,
 body {
   padding: 0;
@@ -16,15 +28,53 @@ a {
   box-sizing: border-box;
 }
 
-/*@media (prefers-color-scheme: dark) {*/
-/*  html {*/
-/*    color-scheme: dark;*/
-/*  }*/
-/*  body {*/
-/*    color: white;*/
-/*    background: black;*/
-/*  }*/
-/*}*/
+/*=============== FONT ===============*/
+@font-face {
+  font-family: custom-sans-serif;
+  src: local("Inconsolata"), local(Segoe UI);
+  unicode-range: U+00-024F;
+}
 
+@font-face {
+  font-family: custom-sans-serif;
+  src: local("Noto Serif SC"), local("微软雅黑");
+  unicode-range: U+4E00-9FFF;
+}
 
+/*=============== PUBLIC STYLES ===============*/
+.main {
+  margin-top: 2rem;
+  height: 100vh;
+  color: #fff;
+  font-family: "Inconsolata", monospace;
+  padding: 1rem 4rem;
+}
+.sets {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px 20px;
+}
+
+/*=============== BREAKPOINTS ===============*/
+@media screen and (max-width: 992px) {
+  .sets {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sets {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .sets {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+}
+
+@media screen and (max-width: 350px) {
+}
 
