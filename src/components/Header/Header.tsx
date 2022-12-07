@@ -12,8 +12,8 @@ const Header = () => {
                 <li className={styles.nav__item}><Link href={"/flex"} className={styles.nav__link}>FLEX</Link></li>
                 <li className={styles.nav__item}><Link href={"/shortcut"} className={styles.nav__link}>SHORTCUT</Link>
                 </li>
-                <li className={styles.nav__item}><Link href={"/command"} className={styles.nav__link}>COMMAND</Link>
-                </li>
+                {/*<li className={styles.nav__item}><Link href={"/command"} className={styles.nav__link}>COMMAND</Link>*/}
+                {/*</li>*/}
             </ul>
         </header>
     );

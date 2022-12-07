@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from "../src/styles/grid.module.css";
 import Link from "next/link";
 import Footer from "../src/components/footer";
 import Head from "next/head";
 import Line from "../src/components/Shortcut/Line";
 import Header from "../src/components/Header/Header";
+import styles from '../src/styles/shorcuts.module.css';
 
 function ShortCut() {
     return (
@@ -16,7 +16,7 @@ function ShortCut() {
                 <link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.4/dist/css/main.min.css"/>
             </Head>
             <Header />
-            <div className={styles.main}>
+            <div className="main">
                 <h2>Web Storm</h2>
                 <div className={styles.shortcuts}>
                     <div className={styles.set} style={{display: 'flex', flexDirection: 'column'}}>
