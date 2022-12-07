@@ -4,6 +4,7 @@ import Link from "next/link";
 import Footer from "../src/components/footer";
 import Head from "next/head";
 import Line from "../src/components/Shortcut/Line";
+import Header from "../src/components/Header/Header";
 
 function ShortCut() {
     return (
@@ -14,7 +15,7 @@ function ShortCut() {
                 <link rel="icon" href="/favicon.ico"/>
                 <link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.4/dist/css/main.min.css"/>
             </Head>
-            <h1 className={styles.title}><Link href={"/"} style={{fontSize: "32px"}}>←&nbsp;</Link>Shortcuts</h1>
+            <Header />
             <div className={styles.main}>
                 <h2>Web Storm</h2>
                 <div className={styles.sets}>
