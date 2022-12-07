@@ -15,9 +15,9 @@
     padding-right: 2rem;
 }
 
-.title {
-    font-size: 24px;
 
+.title__font {
+    font-size: 1.5rem;
 }
 
 .nav {
@@ -30,4 +30,25 @@
 
 .nav__link {
     font-size: 1rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 350px) {
+    .title__font {
+        font-size: 1rem;
+    }
+    .nav__link {
+        font-size: 0.875rem;
+    }
 }

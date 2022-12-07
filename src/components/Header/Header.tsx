@@ -6,9 +6,7 @@ import Link from "next/link";
 const Header = () => {
     return (
         <header className={styles.header}>
-            <h1 className={styles.title}>
-                <Link href={"/"} style={{fontSize: "24px"}}>CHEATSHEET</Link>
-            </h1>
+            <Link href={"/"} className={styles.title__font}>CHEATSHEET</Link>
             <ul className={styles.nav}>
                 <li className={styles.nav__item}><Link href={"/grid"} className={styles.nav__link}>GRID</Link></li>
                 <li className={styles.nav__item}><Link href={"/flex"} className={styles.nav__link}>FLEX</Link></li>
